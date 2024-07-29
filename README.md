@@ -2,12 +2,12 @@
 The Secure Banking System is a Java-based application designed to provide a secure and user-friendly platform for managing basic banking operations. It integrates with a MySQL database to securely store and manage user data, including account balances and transaction histories.
 
 **Features**
-User Registration: Allows new users to create an account by providing a unique username and password. Stores user credentials and initial account balance in the MySQL database.
-User Login: Authenticates users based on their username and password. Provides access to account functionalities upon successful login.
-View Account Balance: Displays the current balance of the logged-in user’s account.
-Deposit Funds: Allows users to deposit money into their account. Updates the account balance in the database accordingly. Records each deposit transaction in the transaction history.
-Withdraw Funds: Enables users to withdraw money from their account. Ensures sufficient balance before processing the withdrawal. Updates the account balance and records the transaction in the database.
-Transaction History: Maintains a record of all transactions (deposits and withdrawals) for each user. Allows users to view their transaction history for better financial management.
+- User Registration: Allows new users to create an account by providing a unique username and password. Stores user credentials and initial account balance in the MySQL database.
+- User Login: Authenticates users based on their username and password. Provides access to account functionalities upon successful login.
+- View Account Balance: Displays the current balance of the logged-in user’s account.
+- Deposit Funds: Allows users to deposit money into their account. Updates the account balance in the database accordingly. Records each deposit transaction in the transaction history.
+- Withdraw Funds: Enables users to withdraw money from their account. Ensures sufficient balance before processing the withdrawal. Updates the account balance and records the transaction in the database.
+- Transaction History: Maintains a record of all transactions (deposits and withdrawals) for each user. Allows users to view their transaction history for better financial management.
 
 **Install dependencies**
 mvn clean install
